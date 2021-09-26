@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-// import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import Header from './components/Header/Header.js'
-import './App.css';
 import Product from './components/Product/Product.js';
 import DetailProduct from './views/DetailProduct/DetailProduct.js';
+import ShoppingCart from './views/ShoppingCart/ShoppingCart.js';
+import './App.css';
 
 const App = () => {
   // store response from server
@@ -22,36 +23,47 @@ const App = () => {
     getApiResponse()
   }, [])
 
-    const handleSaveData = (descriptionArt) => {
-      setSaveData({...saveData, dataSaved:[ descriptionArt]});
+    const handleSaveData = (description) => {
+      setSaveData({...saveData, dataSaved:[description]});
     }
   
 
   return (
     <>
-      <Header />
-      <Product  response={response}/>
-      <DetailProduct/>
-    {/* <Router>
-      <Switch>
-        <Route path="/" exact>
-          <Home 
-            data={response}
-            saveData={saveData}
-            setSaveData={setSaveData}
-            handleSaveData={handleSaveData}
-          />
-        </Route>
-        <Route path="/item">
-          <Item 
-            data={response}
-            saveData={saveData}
-          />
-        </Route>
-      </Switch>
-  </Router> */}
+      <Router>
+        <Header />
+        <Switch>
+          <Route path='/' exact>
+            <Product  response={response}/>
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/one-product" exact>
+            <DetailProduct />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route path="/shopping-cart" exact>
+            <ShoppingCart/>
+          </Route>
+        </Switch>
+      </Router>  
   </>
   )
 }
 
 export default App;
+
+  // {/* //    
+  // //   <Router>
+  // //     <Switch>
+  // //       <Route path="/" exact>
+  // //       </Route>
+  // //       <Route path="/item">
+  // //         <Item  
+  // //           data={response}
+  // //           saveData={saveData}
+  // //         />
+  // //       </Route>
+  // //     </Switch>
+  // // </Router>*/}

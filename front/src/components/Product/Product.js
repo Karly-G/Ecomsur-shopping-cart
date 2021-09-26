@@ -1,8 +1,15 @@
 import React from 'react';
-import './Product.css';
+import { useHistory } from 'react-router-dom';
 import addProduct from '../../assets/add-product.png';
+import './Product.css';
 
 const Product =({response = []})=>{
+
+    let history = useHistory();
+
+    function handleClick() {
+        history.push('/one-product');
+    }
 
     return(
         <div className="all-products" >
@@ -17,7 +24,7 @@ const Product =({response = []})=>{
             </div>
             <div className="card-action" >
                 <img src={addProduct} alt="add" className="add-product"/>
-                <button className="btn-description">Descripción</button>
+                <button className="btn-description" onClick={handleClick}>Descripción</button>
             </div>
         </div>
         ))}

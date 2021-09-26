@@ -4,7 +4,6 @@
 }
 
 .one-product{
-
     display: flex;
 }
 
@@ -14,6 +13,10 @@
     box-shadow: 5px 0px 5px;
     height: 350px;
     font-size: x-large;
+}
+
+.detail-product b{
+    color: #15BE79 ;
 }
 
 .img-one-product{
@@ -35,11 +38,6 @@
 
 .back{
     width: 50px;
-    height: 50px;
-}
-
-.star-back{
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
+    margin: 30px 0;
+    margin-left: 1200px;
 }

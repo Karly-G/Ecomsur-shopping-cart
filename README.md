@@ -1,6 +1,13 @@
-# Prueba tecnica Front Ecomsur 2021
+# Bienvenidos amantes de la tecnología
 
-### Por favor, empezar la prueba después de haber leído este documento completo.
+TechShop es una tienda de comercio electrónico que ofrece una amplia gama de productos tecnológicos y de vanguardia, como lo son audífinos, cámaras fotográficas, asistentes de voz inteligentes, consolas de videojuegos, celulares y más. Apartir de su interfaz amigable desde que entras a nuestra página podrás encontrar todo el stock tecnológico con el que contamos. Tendrás una vista previa de la imágen del producto como su respectivo precio. Lo puedes añadir a tu carrito de inmediato o ver la descripción detallada de cada uno de los productos.
+
+Además con nuestro diseño responsive podrás visitar `TechShop` desde cualquier dispositivo movil o computadora. 😉
+
+¿No suena genial? 😎
+
+## TechShop ¡La tienda ideal de todo geek! 🤓🧑🏻‍💻👩🏻‍💻
+ ![Running app](/techShop.png)
 
   - [Requerimientos mínimos](#requerimientos-mínimos)
   - [Instalar y Correr la aplicación](#instalar-y-correr-la-aplicación)
@@ -30,7 +37,7 @@ Esto correrá ambas aplicaciones (Express y CRA) al mismo tiempo.
 - CRA se encuentra en:
   `http://localhost:3000/`
  y se ve de la siguiente forma:
- ![Running app](/running-app.png)
+
 
 
 - El servidor se encuentra en:
@@ -77,4 +84,6 @@ Se requiere implementar un carrito de compras simple, éste debe contar con las 
 
 3. Sube tu respuesta a un repositorio en una cuenta tuya de GitHub, GitLab o BitBucket y da acceso a `kbarcelo@ecomsur.com` y posiblemente a otros correos que te pida RRHH
 
-## ¡Mucho éxito! 💪
+### Proyecto creado como prueba técnica para Ecomsur by Karla González©. 
+
+

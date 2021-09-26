@@ -17,8 +17,6 @@ Recuerda que los proyectos de Ecomsur siempre están en constante mejora, así q
 
 ### Si deseas probar este proyecto en el archivo BITACORA.md podrás encontrar las instrucciones para descargar y utilizar esta aplicación.
 
-![](https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif)
-
 ## Proyecto creado como prueba técnica para Ecomsur by Karla González©. 
 
 

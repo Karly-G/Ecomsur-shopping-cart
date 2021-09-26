@@ -1,6 +1,6 @@
 # Instrucciones de Instalación de TechShop
 
-1. Haz `fork` del repositorio.
+1. Haz `fork` de este repositorio.
 2. Después desde el fork que hiciste a tu repositorio local copia el enlace que te permitirá `clonarlo en tu ordenador`.
 3. Un vez que hiciste `git clone` abre el proyecto en tu editor de código favorito.
 4. En el directorio root corre el comando: `npm install`
@@ -13,10 +13,9 @@
 
 ## Ahora ya puedes correr TechShop en tu computadora. 😉
 
-## Psss psss ¡Hey! Si no quieres instalar la aplicación y solo quieres probarla puedes acceder a través del siguiente enlace, ya que `TechShop` ya está subida en un servidor. 😲
-
-
 ![](https://media.giphy.com/media/XW9kx8pTs3HGfgjje4/giphy.gif)
 
-### `Ahora que ya tienes instalada esta App te contaré sobre su desarrollo`
+### Psss psss ¡Hey! Si no quieres instalar la aplicación y solo quieres probarla puedes acceder a través del siguiente enlace, ya que `TechShop` ya está subida en un servidor. 😲
+
+### Ahora que ya tienes instalada esta App te contaré sobre su desarrollo
 

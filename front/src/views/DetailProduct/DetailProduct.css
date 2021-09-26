@@ -1,0 +1,45 @@
+.card-product{
+    background-color: #5FA8FF;
+    padding: 50px;
+}
+
+.one-product{
+
+    display: flex;
+}
+
+.detail-product{
+    padding: 0 50px 50px 50px;
+    background-color: #E2E2E2;
+    box-shadow: 5px 0px 5px;
+    height: 350px;
+    font-size: x-large;
+}
+
+.img-one-product{
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+    box-shadow: 5px 0px 5px;
+}
+
+.name-product{
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 50px 0;
+}
+
+.stars{
+    width: 100px;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+}
+
+.star-back{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}

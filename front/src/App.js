@@ -34,12 +34,12 @@ const App = () => {
         <Header />
         <Switch>
           <Route path='/' exact>
-            <Product  response={response}/>
+            <Product  response={response} handleSaveData={handleSaveData} />
           </Route>
         </Switch>
         <Switch>
           <Route path="/one-product" exact>
-            <DetailProduct />
+            <DetailProduct  handleSaveData={handleSaveData} saveData={saveData} />
           </Route>
         </Switch>
         <Switch>

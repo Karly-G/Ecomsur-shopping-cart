@@ -5,7 +5,7 @@ import stars from '../../assets/stars.png';
 import back from '../../assets/back.png';
 import addProduct from '../../assets/add-product.png';
 
-const DetailProduct =(description)=>{
+const DetailProduct =()=>{
 
     let history = useHistory();
 
@@ -22,7 +22,7 @@ const DetailProduct =(description)=>{
                     <img className="img-one-product" src="https://raw.githubusercontent.com/Karly-G/Ecomsur-shopping-cart/main/backend/public/images/camera.jpg" alt="imagen" />
                 </div>
                 <div className="detail-product" >
-                    <p><b>Descripción: </b>{description.description}Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design</p>
+                    <p><b>Descripción: </b>Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design</p>
                     <p><b>Marca: </b>Canon</p>
                     <h3>$ 500</h3>
                     <p><b>Calificación:</b> <img className="stars" src={stars} alt="calificación"/> 3/5</p>

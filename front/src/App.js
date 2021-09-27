@@ -53,17 +53,3 @@ const App = () => {
 }
 
 export default App;
-
-  // {/* //    
-  // //   <Router>
-  // //     <Switch>
-  // //       <Route path="/" exact>
-  // //       </Route>
-  // //       <Route path="/item">
-  // //         <Item  
-  // //           data={response}
-  // //           saveData={saveData}
-  // //         />
-  // //       </Route>
-  // //     </Switch>
-  // // </Router>*/}

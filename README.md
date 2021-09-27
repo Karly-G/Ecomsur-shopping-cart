@@ -8,6 +8,7 @@ Además con nuestro diseño responsive podrás visitar `TechShop` desde cualquie
 
 ## TechShop ¡La tienda ideal de todo geek! 🤓🧑🏻‍💻👩🏻‍💻
  ![Running app](/techShop.png)
+ ![](/one-product.png)
 
 ## ¿Listos para comprar?
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import addProduct from '../../assets/add-product.png';
 import './Product.css';
+import addProduct from '../../assets/add-product.png';
 
 const Product =({response = []})=>{
 
@@ -10,6 +10,7 @@ const Product =({response = []})=>{
     function handleClick() {
         history.push('/one-product');
     }
+
 
     return(
         <div className="all-products" >
